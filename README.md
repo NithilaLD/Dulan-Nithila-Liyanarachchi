@@ -1,2 +1,2 @@
 # Dulan Nithila Liyanarachchi
-Portfolio Website - https://nithilald.github.io/dulannithilaliyanarachchi.github.io/
+Portfolio Website - https://nithilald.github.io/Dulan-Nithila-Liyanarachchi/
