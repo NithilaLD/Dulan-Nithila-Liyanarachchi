@@ -1334,3 +1334,15 @@ section,
 #research .portfolio-content{
     border-radius:15px;
 }
+
+.article-img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+#articles .portfolio-content {
+    overflow: hidden;
+    border-radius: 10px;
+}
