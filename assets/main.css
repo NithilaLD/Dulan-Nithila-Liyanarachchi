@@ -1280,10 +1280,22 @@ section,
 
 #articles {
     min-height: 100vh;
+    padding-top: 80px;
+    padding-bottom: 80px;
     display: flex;
     align-items: center;
 }
 
-#articles .container {
-    width: 100%;
+#articles .section-title {
+    margin-bottom: 50px;
+}
+
+#articles .portfolio-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#articles .btn {
+    margin-top: auto;
 }
