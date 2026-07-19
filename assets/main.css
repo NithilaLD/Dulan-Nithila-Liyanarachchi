@@ -1277,3 +1277,13 @@ section,
 .portfolio-content:hover {
   transform: translateY(-5px);
 }
+
+#articles {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#articles .container {
+    width: 100%;
+}
