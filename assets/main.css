@@ -1299,3 +1299,34 @@ section,
 #articles .btn {
     margin-top: auto;
 }
+
+/* Research Section */
+#research {
+    min-height: 100vh;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    align-items: center;
+}
+
+#research .container {
+    width: 100%;
+}
+
+#research .section-title {
+    margin-bottom: 50px;
+}
+
+#research .research-item {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 30px;
+    border-radius: 15px;
+    background: #fff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+#research .research-item .btn {
+    margin-top: auto;
+}
