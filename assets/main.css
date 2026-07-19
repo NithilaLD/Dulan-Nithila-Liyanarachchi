@@ -1313,8 +1313,8 @@ section,
 }
 
 #research .section-title {
-    margin-bottom: 50px;
-    margin-left: 250px;
+    margin-bottom:0;
+    padding-right:25px;
 }
 
 #research .research-item {
@@ -1329,4 +1329,8 @@ section,
 
 #research .research-item .btn {
     margin-top: auto;
+}
+
+#research .portfolio-content{
+    border-radius:15px;
 }
