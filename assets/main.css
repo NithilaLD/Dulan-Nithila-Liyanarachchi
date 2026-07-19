@@ -1266,3 +1266,14 @@ section,
   margin-right: 8px;
   color: var(--accent-color);
 }
+.research-item,
+.portfolio-content {
+  border-radius: 12px;
+  background: #fff;
+  transition: 0.3s;
+}
+
+.research-item:hover,
+.portfolio-content:hover {
+  transform: translateY(-5px);
+}
