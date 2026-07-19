@@ -1287,14 +1287,12 @@ section,
 }
 
 #articles .section-title {
-    margin-bottom: 50px;
-    margin-left: 250px;
+    margin-bottom:0;
+    padding-right:25px;
 }
 
 #articles .portfolio-content {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
+    border-radius:15px;
 }
 
 #articles .btn {
