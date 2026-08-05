@@ -13,15 +13,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <style>
-      * { margin:0; }
-      body
+      *
+      { 
+        margin:0;
+        box-sizing: border-box;
+      }
+      body 
       {
         min-height: 100vh;
         display: flex;
         justify-content: center;
-        align-items: flex-start;
-        padding: 40px 0;
+        align-items: center;
+        padding: 20px;
+        box-sizing: border-box;
       }
+      @media (max-height: 750px) { body { align-items: flex-start; } }
       .background
       {
         position:fixed;
@@ -37,8 +43,8 @@
         border:1px solid rgba(255,255,255,.15);
         box-shadow:0 15px 45px rgba(0,0,0,.4);
         text-align:center;
-        padding: 5%;
-        width: 40%;
+        width: min(90%, 520px);
+        padding: 35px;
       }
       .profile
       {
