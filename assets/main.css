@@ -186,17 +186,17 @@ h6 {
 }
 
 .header .social-links a {
-  font-size: 16px;
+  font-size: 20px;          /* Increased from 16px to make icons bigger and more visible */
   display: inline-flex;
   align-items: center;
   justify-content: center;
   background: color-mix(in srgb, var(--default-color), transparent 90%);
   color: var(--default-color);
-  margin: 0 2px;
+  margin: 0 4px;            /* Slightly increased spacing between circles */
   border-radius: 50%;
   text-align: center;
-  width: 40px;
-  height: 40px;
+  width: 42px;              /* Slightly increased container size to match */
+  height: 42px;
   transition: 0.3s;
 }
 
