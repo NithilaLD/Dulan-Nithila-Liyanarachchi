@@ -195,8 +195,8 @@ h6 {
   margin: 0 4px;            /* Slightly increased spacing between circles */
   border-radius: 50%;
   text-align: center;
-  width: 42px;              /* Slightly increased container size to match */
-  height: 42px;
+  width: 32px;              /* Slightly increased container size to match */
+  height: 32px;
   transition: 0.3s;
 }
 
